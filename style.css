@@ -2,6 +2,11 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
+header {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -14,7 +19,7 @@ hr {
 
 div {
     width: 100%;
-    height: 600px;
+    height: 780px;
 }
 
 div div {
@@ -50,6 +55,7 @@ div div {
   height: 2%;
   width: 1%;
   padding: 10px;
+  margin-right: 20px;
   border: 1px solid black;
 }
 
@@ -59,13 +65,15 @@ div div {
   height: 2%;
   width: 1%;
   padding: 10px;
+  border: 1px solid black;
 }
 
 .pallette-red {
   background: red;
   height: 2%;
   width: 1%;
-  padding: 10px
+  padding: 10px;
+  border: 1px solid black;
 }
 
 .pallette-green {
@@ -73,6 +81,7 @@ div div {
   height: 2%;
   width: 1%;
   padding: 10px;
+  border: 1px solid black;
 }
 
 .pallette-yellow {
@@ -80,6 +89,7 @@ div div {
   height: 2%;
   width: 1%;
   padding: 10px;
+  border: 1px solid black;
 }
 
 .pallette-blue {
@@ -87,4 +97,11 @@ div div {
   height: 2%;
   width: 1%;
   padding: 10px;
+  border: 1px solid black;
+}
+
+.fa-border .fa .fa-paint-brush {
+  height: 2.5%;
+  width: 1.5%;
+  
 }
