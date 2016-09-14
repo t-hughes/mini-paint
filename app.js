@@ -20,6 +20,11 @@ $(document).ready(function() {
       $('.current-color').css('background-color','white');
       });
 
+//after clicking reset this will also reset the background to the paint brush icon to white
+      $('.pallette-black').on('click', function(){
+        $('.current-color').css('background-color','white');
+        color = '';
+      });
 
   $('.box').on('click', function() {
     $(this).addClass(color);
@@ -50,5 +55,10 @@ $(document).ready(function() {
     });
     $('#white').on('click', function(){
       color = 'white';
+    });
+
+//after clicking reset this will also reset the current chosen color to white
+    $('#reset').on('click', function(){
+      $('.box').attr('class', 'box');
     });
 });
